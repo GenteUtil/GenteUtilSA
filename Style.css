@@ -1,0 +1,156 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #003366;
+    background-color: #fff;
+}
+
+header {
+    background-color: #003366;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center; /* Centra verticalmente el texto */
+    height: 100%; /* Asegura que ocupa toda la altura del header */
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* Centra verticalmente dentro de cada enlace */
+    height: 100%; /* Asegura que ocupa toda la altura del header */
+    padding: 10px 0; /* Ajusta el espacio para centrar mejor */
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero img {
+    height: 100px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #003366;
+    margin-top: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #003366;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #003366;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.card p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.card a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #003366;
+}
+
+.about p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #003366;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+    color: #003366;
+}
+
+footer {
+    background-color: #003366;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-logo img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-media a img {
+    width: 24px;
+    margin: 0 5px;
+}
+
+footer p {
+    font-size: 12px;
+    color: #bbb;
+}
